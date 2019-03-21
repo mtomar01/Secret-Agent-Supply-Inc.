@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 
-/* HEADINGS */
+/* HEADER */
 .header--main {
   font-weight: normal;
   font-size: 50px;
@@ -21,16 +21,19 @@ body {
   color: grey;
 }
 
-/* LINKS */
+/* NAVBAR */
 .link--cta {
   font-size: 16px;
   color: aquamarine;
 }
+
+/*CONTENT*/
+
 
 /* FOOTER */
 .footer--style {
   text-align: right;
   color: grey;
   font-size: 21px;
-  
+
 }
