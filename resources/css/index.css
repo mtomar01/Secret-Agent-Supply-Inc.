@@ -23,20 +23,50 @@ body {
   margin-right: 1rem;
   height: 1.5rem;
 }
-.header--second {
-  color: white;
-  font-weight: 300;
-  font-size: 42px;
+
+
+/*JUMBOTRON*/
+.jumbotron--container {
+  height: 25rem;
+  width: 100%;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.header--fourth {
-  font-size: 21px;
-  color: grey;
+.jumbotron--text {
+  margin-left: 9%;
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 3rem;
+}
+.jumbotron--text h2 {
+  font-size: 2rem;
+  margin-top: 0.25rem;
 }
 
+
 /* NAVBAR */
-.link--cta {
-  font-size: 16px;
-  color: aquamarine;
+.navbar--container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: darkred;
+  color: white;
+}
+.navbar--container ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 /*CONTENT*/
