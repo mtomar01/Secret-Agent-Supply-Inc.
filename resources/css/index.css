@@ -159,9 +159,17 @@ body {
   .jumbotron--text {
     width: 100%;
     margin: 0;
+    font-size: 0.77rem;
+    top: 8rem;
   }
   .jumbotron--text h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     margin-top: 0.25rem;
+  }
+  .jumbotron--container {
+    height: 15rem;
+  }
+  .footer--style {
+    text-align: center;
   }
 }
